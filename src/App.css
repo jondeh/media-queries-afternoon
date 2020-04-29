@@ -1,0 +1,153 @@
+.App {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.header {
+  box-sizing: border-box;
+  height: 52px;
+  width: 100%;
+  background-color: rgba(33, 37, 41, 0);
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding: 0 18%;
+}
+
+.dropdown {
+  /* display: none; */
+  position: absolute;
+  top: 90px;
+  transition: 100s;
+}
+
+.logo {
+  width: 15%;
+  text-align: center;
+  font-family: 'Kaushan Script', cursive;
+  color: #FED136;
+  font-size: 28px;
+  margin: 0 16px 0 0;
+  padding: 27px 0;
+}
+
+
+.nav {
+  width: 440px;
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 0;
+  margin: 0 3%;
+}
+
+.main {
+  box-sizing: border-box;
+  height: 75%;
+  background-image: url('https://blackrockdigital.github.io/startbootstrap-agency/img/header-bg.jpg');
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 8%;
+}
+
+.main-container {
+  border: 1px solid white;
+  height: 57%;
+  width: 50%;
+  position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.welcome {
+  font-size: 40px;
+  color: white;
+  font-style: italic;
+  font-family: 'Playfair Display', serif;
+  font-weight: 525;
+}
+
+.meet {
+  font-size: 75px;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  font-weight: 700;
+}
+
+.more {
+  font-size: 18px;
+  background-color: #FED136;
+  height: 17%;
+  padding: 2%;
+  color: white;
+  border: 0px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  border-radius: 3px;
+}
+
+.services {
+  height: 75vh;
+  border: 1px red solid;
+}
+
+.portfolio {
+  height: 125vh;
+  border: 1px green solid;
+}
+
+.about {
+  height: 200vh;
+  border: 1px blue solid;
+}
+
+.team {
+  height: 95vh;
+  border: 3px red solid;
+}
+
+.contact {
+  height: 72vh;
+  border: 1px purple solid;
+}
+
+.footer {
+  height: 10vh;
+  border: 1px orange solid;
+}
+
+.menu-button {
+  display: none;
+  background-color: #FED136;
+  height: 40px;
+  width: 87px;
+  border: 0;
+  border-radius: 3px;
+  color: white;
+  margin: 24px 0;
+}
+
+
+
+@media(max-width: 990px){
+  .header {
+    height: 27px;
+  }
+
+  .logo {
+    height: 5%;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .menu-button {
+    display: initial;
+  }
+}
